@@ -1,0 +1,21 @@
+How to Build Team Project TFS GIT
+
+git clone (memindahkan folder dari tfs ke lokal anda)
+===========
+git clone http://116.197.132.115/tfs/GERAI.ID/_git/mamalia.gerai
+
+
+open folder mamalia.gerai.id
+=========================
+
+git pull (untuk mengecek setiap update yang ada di tfs)
+==========
+git pull origin master
+
+
+open gitGUI PUSH (mengupload ke server tfs)
+============
+- Rescan
+- Stage Change
+- Commit
+- Push
